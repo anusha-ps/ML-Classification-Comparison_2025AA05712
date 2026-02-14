@@ -51,7 +51,7 @@ scaler = load_scaler()
 st.subheader("⬇️ Download Sample Test Dataset")
 
 try:
-    sample_df = pd.read_csv(r"C:\Users\anush\Downloads\ML\Assignment 2\ML-Classification-Comparision\sample_test_data.csv")
+    sample_df = pd.read_csv("data/sample_test_data.csv")
     st.download_button(
         label="Download Sample Test Data",
         data=sample_df.to_csv(index=False),
