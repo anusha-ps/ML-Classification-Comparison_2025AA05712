@@ -175,30 +175,6 @@ if uploaded_file:
             with col2:
                 st.pyplot(fig, use_container_width=False)
 
-
-            # # -----------------------------
-            # # Classification Report
-            # # -----------------------------
-            # st.subheader("Classification Report")
-
-            # report_dict = classification_report(
-            #     y_test,
-            #     y_pred,
-            #     target_names=["Benign (0)", "Malignant (1)"],
-            #     output_dict=True
-            # )
-
-            # report_df = pd.DataFrame(report_dict).transpose()
-
-            # # Round values for cleaner display
-            # report_df = report_df.round(3)
-
-            # # Styled display
-            # st.dataframe(
-            #     report_df.style.background_gradient(cmap="Blues"),
-            #     use_container_width=True
-            # )
-
             # -----------------------------
             # Classification Report
             # -----------------------------
