@@ -123,8 +123,8 @@ The app allows users to dynamically evaluate trained models on uploaded test dat
 
 ## How to Run the Project Locally
 Step 1: Clone Repository
-    <li> git clone <your-github-link> </li>
-    <li> cd reast-cancer-ml-streamlit </li>
+    <li> git clone https://github.com/anusha-ps/ML-Classification-Comparison_2025AA05712 </li>
+    <li> cd ML-Classification-Comparison_2025AA05712 </li>
 
 Step 2: Install Dependencies
     <li> pipinstall -r requirements.txt </li>
